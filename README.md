@@ -2,15 +2,17 @@
 
 First I read in The Brain MRI using imread and then turned it into a grayscale image using rgb2gray  (the appearance of the image seemed to stay the same)
 
+<img src="images/Brain1.png" width= 200>
 
 I then used imfill on the grayscale image so that the regions of the image were more appeared more clearly
+<img src="images/Greyscale%20Brain%20Mri.png" width= 200>
 
 By viewing the histogram of the the grayscale image as both a graph and it’s actual numerical data I was able to ascertain that the local minima around the area of the histogram that the brain matter is in were at 108 and 112
 
 
 I then used Double thresholding using 108 and 112(I had initially used 25 and 150 based on the histogram visual) as the threshold values to try and segment the brain matter as much as possible and then used imfill with the ‘holes’ syntax to fill in the holes in the brain matter. I was not concerned with the pixels around as my goal was to have the brain matter recognised as a single region.
 
-
+<img src="images/Thresholded%20Brain%20and%20Filled%20Brain.png" width = 500>
 
 
 I had Initially tested using various methods to change the contrast of the gray scale   imageto make it easier to segment but I felt that they would only help to identify the skull but not the brain matter
