@@ -1,4 +1,4 @@
-# Matlab-Brain-MRI
+# Matlab-Brain-MRI(ReadMe Under Construction)
 
 First I read in The Brain MRI using imread and then turned it into a grayscale image using rgb2gray  (the appearance of the image seemed to stay the same)
 
