@@ -67,7 +67,9 @@ Here are the results with the blood vessels boundaries traced over the original 
 <img src="images/PartBpic1.png" width = 200>
 
 Here is the same thing for the first brain image
+
 <img src="images/PartBpic2.png" width = 200>
+
 Effectiveness
 
 I felt the methodology for the first task worked well for both images with any alteration to the image having a negligible effect on the area.
