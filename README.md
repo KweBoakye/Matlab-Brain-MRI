@@ -64,7 +64,9 @@ Here working on the 2nd image, I use imcomplenent to create the inverse of the d
 
 
 Here are the results with the blood vessels boundaries traced over the original image
+
 <img src="images/PartBpic1.png" width = 200>
+
 
 Here is the same thing for the first brain image
 
