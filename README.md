@@ -1,5 +1,9 @@
 # Matlab-Brain-MRI(ReadMe Under Construction)
 
+## Introduction
+
+## Implementation
+
 First I read in The Brain MRI using imread and then turned it into a grayscale image using rgb2gray  (the appearance of the image seemed to stay the same)
 
 <img src="images/Brain1.png" width= 200>
@@ -72,12 +76,12 @@ Here is the same thing for the first brain image
 
 <img src="images/PartBpic2.png" width = 500>
 
-Effectiveness
+## Effectiveness
 
 I felt the methodology for the first task worked well for both images with any alteration to the image having a negligible effect on the area.
 However for the second task while my method worked well for the second image the presence of other white structures encroaching into the brain matter)disregard if they are blood vessels) and the black/dark pixels in the brain matter hampered the effective ness of my methods
 
-Conclusion
+## Conclusion
 
 When created an algorithm for these type of tasks they must be tested and developed using a wide range of examples of the type of images they are intended to work on which is possibly linked to the concept of Ai deep learning
 
