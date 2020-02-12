@@ -2,6 +2,8 @@
 
 ## Introduction
 
+   The aim of this project is to develop an algorithm to segment the brain tissue in a Brain Mri Image, and to also detect blood vessels in it using Matlab.
+
 ## Implementation
 
 First I read in The Brain MRI using imread and then turned it into a grayscale image using rgb2gray  (the appearance of the image seemed to stay the same)
